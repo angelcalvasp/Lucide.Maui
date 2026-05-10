@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <IconFontFile>lucide.ttf</IconFontFile>
+    <IconFontAlias>LucideIcons</IconFontAlias>
+    <IconFontClass>LucideIconsRegular</IconFontClass>
+    <IconFontNamespace>Lucide.Maui</IconFontNamespace>
+  </PropertyGroup>
+
+  <!-- Multi-font support: define one or more IconFontDefinition items. -->
+  <ItemGroup>
+    <IconFontDefinition Include="Resources/Fonts/lucide.ttf">
+      <FontAlias>LucideIcons</FontAlias>
+      <FontClass>LucideIcons</FontClass>
+      <FontNamespace>Lucide.Maui</FontNamespace>
+    </IconFontDefinition>
+  </ItemGroup>
+</Project>

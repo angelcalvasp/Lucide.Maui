@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="IconFontTemplate.Sample.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:IconFontTemplate.Sample"
+    Title="IconFontTemplate.Sample">
+
+    <TabBar>
+        <ShellContent
+            Title="Regular"
+            ContentTemplate="{DataTemplate local:RegularIconsPage}"
+            Route="RegularIcons" />
+    </TabBar>
+
+</Shell>
