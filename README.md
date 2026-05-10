@@ -6,8 +6,8 @@
 `Lucide.Maui` ships the `Lucide.ttf` icon font for .NET MAUI. It registers the font across supported targets when you call `UseLucideIcons()` and exposes strongly-typed glyph constants via `LucideIcons` to simplify XAML and C# usage.
 
 ## ✨ Features
-- ⚙️ **One-line setup**: call `builder.UseLucideIcons()` (generated, e.g., `UseFluentIcons()`) in `MauiProgram`
-- 🔤 **Strongly-typed glyphs** via `LucideIconsRegular.*`, `LucideIconsFilled.*` (and other styles if present)
+- ⚙️ **One-line setup**: call `builder.UseLucideIcons()` in `MauiProgram`
+- 🔤 **Strongly-typed glyphs** via `LucideIcons.*
 - 🧰 **Helper APIs**: `LucideIcons.Create()` for `FontImageSource`
 - 📱 **Supported targets**: Android, iOS, Mac Catalyst, Windows
 
@@ -75,5 +75,5 @@ var source = LucideIconsConfig.Create(LucideIcons.AirVent, Colors.Orange, 32);
 
 ## 🙏 Attribution
 - Lucide font: MIT License © respective owners
-- This project is not affiliated with or endorsed by lucide.
+- This project is not affiliated with or endorsed by Lucide.
 - This project was heavily influenced by https://github.com/jfversluis/IconFont.Maui.FluentIcons and their template repo https://github.com/jfversluis/IconFont.Maui.Template
